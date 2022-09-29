@@ -1,134 +1,201 @@
-.link {
-  text-decoration: none;
-}
-
-ul,
-li {
-  list-style: none;
-}
-
-button {
-  cursor: pointer;
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
   color: #2196f3;
   text-decoration: none;
 }
 
 .text {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
   color: #000000;
   text-decoration: none;
 }
 
-.item {
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #212121;
-}
-
-.list-item {
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+.link:hover,
+.link:focus {
   color: #2196f3;
 }
 
+.link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.item-link:hover,
+.item-link:focus {
+  color: #2196f3;
+}
+
+.item-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+
+.item,
+.list-item,
+.item-list {
+  list-style: none;
+}
+
+.container {
+  background: #2f303a;
+}
+
 .title {
-  font-family: 'Roboto';
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .btn {
-  font-family: 'Roboto';
-  font-style: normal;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
-  background: #2196f3;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   color: #ffffff;
 }
 
 .tagline {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
 }
 
 .paragraph {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
 
 .subtitle {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.secondary-item {
+  list-style: none;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: #212121;
 }
 
 .caption {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
   color: #212121;
 }
 
 .desc {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
   color: #757575;
 }
 
+.box {
+  background: #2f303a;
+}
+
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.text-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.button:hover,
+.button:focus {
+  background: #2196f3;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+  border: 0;
+}
+
 .main-title {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
+  letter-spacing: 0.06em;
   color: #212121;
 }
 
 .paragraph-text {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
   color: #757575;
-}
-
-.button {
-  font-family: 'Roboto';
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
-  color: #212121;
 }
