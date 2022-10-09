@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,101 +22,112 @@
   </head>
   <body>
     <header class="page">
-      <nav class="navigation">
-        <a class="logo" href="./index.html">Web<span class="text">Studio</span></a>
+      <div class="container header-container">
+        <nav class="navigation">
+          <a class="logo" href="./index.html">Web<span class="text">Studio</span></a>
+          <ul class="menu">
+            <li class="item">
+              <a class="link" href="./index.html">Студія</a>
+            </li>
+            <li class="item">
+              <a class="link" href="./index.html">Портфоліо</a>
+            </li>
+            <li class="item">
+              <a class="link" href="">Контакти</a>
+            </li>
+          </ul>
+        </nav>
         <ul class="menu">
-          <li class="item">
-            <a class="link" href="./index.html">Студія</a>
+          <li class="list-item">
+            <a class="item-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
-          <li class="item">
-            <a class="link" href="./index.html">Портфоліо</a>
-          </li>
-          <li class="item">
-            <a class="link" href="">Контакти</a>
+          <li class="list-item">
+            <a class="item-link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
-      <ul class="menu">
-        <li class="list-item">
-          <a class="item-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li class="list-item">
-          <a class="item-link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
+      </div>
     </header>
-    <main>
-      <section class="container-box">
-        <h2 hidden>Переваги</h2>
+    <main class="main-page">
+      <section class="hero">
+        <div class="container">
+        <h2 class="visually-hidden" hidden>Переваги</h2>
         <ul class="items">
-          <li class="item">
+          <li class="main-item">
             <button type="button" class="button">Усі</button>
           </li>
-          <li class="item">
+          <li class="main-item">
             <button type="button" class="button">Веб-сайти</button>
           </li>
-          <li class="item">
+          <li class="main-item">
             <button type="button" class="button">Додатки</button>
           </li>
-          <li class="item">
+          <li class="main-item">
             <button type="button" class="button">Дизайн</button>
           </li>
-          <li class="item">
+          <li class="main-item">
             <button type="button" class="button">Маркетинг</button>
           </li>
-          <li class="item">
+          </ul>
+          <div class="hero-list-item">
+          <ul class="hero-list">
+          <li class="hero-item">
             <img src="./images/images.jpg" alt="Технокряк" width="370" height="294" />
             <h2 class="main-title">Технокряк</h2>
             <p class="paragraph-text">Веб-сайт</p>
           </li>
-          <li class="item">
+          <li class="hero-item">
             <img src="./images/images1.jpg" alt="Постер" width="370" height="294" />
             <h2 class="main-title">Постер New Orlean vs Golden Star</h2>
             <p class="paragraph-text">Дизайн</p>
           </li>
-          <li class="item">
+          <li class="hero-item">
             <img src="./images/images2.jpg" alt="Ресторан" width="370" height="294" />
             <h2 class="main-title">Ресторан Seafood</h2>
             <p class="paragraph-text">Додаток</p>
           </li>
-          <li class="item">
+          <li class="hero-item">
             <img src="./images/images3.jpg" alt="Проект" width="370" height="294" />
             <h2 class="main-title">Проєкт Prime</h2>
             <p class="paragraph-text">Маркетинг</p>
           </li>
-          <li class="item">
+          <li class="hero-item">
             <img src="./images/images4.jpg" alt="Проєкт Boxes" width="370" height="294" />
             <h2 class="main-title">Проєкт Boxes</h2>
             <p class="paragraph-text">Додаток</p>
           </li>
-          <li class="item">
+          <li class="hero-item">
             <img src="./images/images5.jpg" alt="Веб-сайт" width="370" height="294" />
             <h2 class="main-title">Inspiration has no Borders</h2>
             <p class="paragraph-text">Веб-сайт</p>
           </li>
-          <li class="item">
+          <li class="hero-item">
             <img src="./images/images6.jpg" alt="Видання" width="370" height="294" />
             <h2 class="main-title">Видання Limited Edition</h2>
             <p class="paragraph-text">Дизайн</p>
           </li>
-          <li class="item">
+          <li class="hero-item">
             <img src="./images/images7.jpg" alt="Проєкт" width="370" height="294" />
             <h2 class="main-title">Проєкт LAB</h2>
             <p class="paragraph-text">Маркетинг</p>
           </li>
-          <li class="item">
+          <li class="hero-item">
             <img src="./images/images8.jpg " alt="Додаток" width="370" height="294" />
             <h2 class="main-title">Growing Business</h2>
             <p class="paragraph-text">Додаток</p>
           </li>
         </ul>
+        </div>
+        </div>
       </section>
     </main>
     <footer class="box">
-      <a href="./index.html" class="logo">Web<span class="text-logo">Studio</span></a>
+      <div class="container">
+      <a class="logo-icon" href="./index.html" class="logo-icon">Web<span class="text-logo">Studio</span></a>
+      <div class="address-list">
       <ul class="menu-list">
         <li class="list-item">
-          <a class="address"
+          <a
+            class="address"
             href="https://goo.gl/maps/2GhHWjsv7smpyjgPA"
             target="_blank"
             rel="noopener noreferrer nofollow"
@@ -123,6 +141,8 @@
           <a class="list-item-link" href="tel:+380991111111">+38 099 111 11 11</a>
         </li>
       </ul>
+      </div>
+      </div>
     </footer>
   </body>
 </html>

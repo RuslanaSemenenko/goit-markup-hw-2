@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,6 +13,7 @@
   </head>
   <body>
     <header class="page">
+      <div class="container header-container">
       <nav class="navigation">
         <a href="./index.html" class="logo">Web<span class="text">Studio</span></a>
         <ul class="menu">
@@ -25,6 +27,8 @@
             <a class="link" href="./index.html">Контакти</a>
           </li>
         </ul>
+        </nav>
+        <div class="header-connect">
         <ul class="menu">
           <li class="list-item">
             <a class="item-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -33,19 +37,22 @@
             <a class="item-link".link href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
+        </div>
+      </div>
     </header>
-    <main>
-      <section class="container">
+    <main class="main-hero">
+      <section class="container-box">
+        <div class="container">
         <h1 class="title">
-          Ефективні рішення для <br />
-          вашого бізнесу
+          Ефективні рішення для вашого бізнесу
         </h1>
         <button type="button" class="btn">Замовити послугу</button>
+        </div>
       </section>
-      <section>
+      <section class="hero">
+        <div class="container">
         <h2 hidden>Переваги</h2>
-        <ul class="menu">
+        <ul class="hero-menu">
           <li class="item-list">
             <h3 class="tagline">Увага до деталей</h3>
             <p class="paragraph">
@@ -69,8 +76,10 @@
             </p>
           </li>
         </ul>
+        </div>
       </section>
       <section>
+        <div class="container">
         <h2 class="subtitle">Чим ми займаємося</h2>
         <ul class="secondary-menu">
           <li class="secondary-item">
@@ -83,9 +92,12 @@
             <img class="picture" src="./images/планшет.jpg" alt="Екран" width="370" height="294" />
           </li>
         </ul>
+        </div>
       </section>
-      <section>
-        <h2 class="subtitle">Наша команда</h2>
+      <section class="box-section">
+        <div class="container">
+        <h2 class="subtitle-lead">Наша команда</h2>
+        <div class="box-secondary-menu">
         <ul class="secondary-menu-list">
           <li class="secondary-item">
             <img class="icon" src="./images/img1.jpg" alt="Ігор Дем'яненко" width="270" height="260" />
@@ -108,10 +120,14 @@
             <p lang="en" class="desc">UI Designer</p>
           </li>
         </ul>
+        </div>
+        </div>
       </section>
     </main>
     <footer class="box">
-      <a href="./index.html" class="logo">Web<span class="text-logo">Studio</span></a>
+      <div class="container">
+      <a class="logo-icon" href="./index.html">Web<span class="text-logo">Studio</span></a>
+      <div class="address-list">
       <ul class="menu-list">
         <li class="list-item">
           <a class="address"
@@ -128,6 +144,8 @@
           <a class="list-item-link" href="tel:+380991111111">+38 099 111 11 11</a>
         </li>
       </ul>
+      </div>
+      </div>
     </footer>
   </body>
 </html>
